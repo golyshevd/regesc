@@ -4,7 +4,7 @@
         "email": "golyshev.dmitry@yandex.ru"
     },
     "bugs": {
-        "url": "https://github.com/golyshevd/module/issues"
+        "url": "https://github.com/fistlabs/fist.lang.regesc/issues"
     },
     "contributors": [
         {
@@ -13,22 +13,22 @@
         }
     ],
     "dependencies": {},
-    "description": "",
+    "description": "escape strings to use in regular expressions",
     "devDependencies": {
         "jshint": "",
         "nodeunit": "",
         "istanbul": ""
     },
     "license": "MIT",
-    "main": "",
-    "name": "",
+    "main": "regesc",
+    "name": "fist.lang.regesc",
     "repository": {
         "type": "git",
-        "url": "git://github.com/golyshevd/module.git"
+        "url": "git://github.com/fistlabs/fist.lang.regesc.git"
     },
     "scripts": {
         "test": "tools/test"
     },
-    "version": "0.0.0",
-    "readme": ""
+    "version": "0.0.1",
+    "readme": "fist.lang.regesc [![Build Status](https://travis-ci.org/fistlabs/fist.lang.regesc.png?branch=v0.0.x)](https://travis-ci.org/fistlabs/fist.lang.regesc)\n=========\nescape strings to use in regular expressions\n"
 }

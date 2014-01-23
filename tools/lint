@@ -1,2 +1,2 @@
 #!/bin/sh
-node_modules/.bin/jshint src/ test/
+node_modules/.bin/jshint test regesc.js

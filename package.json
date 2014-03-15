@@ -15,9 +15,11 @@
     "dependencies": {},
     "description": "escape strings to use in regular expressions",
     "devDependencies": {
-        "jshint": "",
+        "eslint": "",
         "nodeunit": "",
-        "istanbul": ""
+        "istanbul": "",
+        "glob": "",
+        "jscs": ""
     },
     "license": "MIT",
     "main": "regesc",
@@ -27,8 +29,13 @@
         "url": "git://github.com/fistlabs/fist.lang.regesc.git"
     },
     "scripts": {
-        "test": "tools/test"
+        "eslint": "eslint test *.js",
+        "jscs": "jscs .",
+        "lint": "npm run jscs && npm run eslint",
+        "unit": "node test/runner",
+        "test": "npm run lint && npm run unit",
+        "cover": "istanbul cover test/runner"
     },
-    "version": "0.0.1",
+    "version": "0.0.2",
     "readme": "fist.lang.regesc [![Build Status](https://travis-ci.org/fistlabs/fist.lang.regesc.png?branch=v0.0.x)](https://travis-ci.org/fistlabs/fist.lang.regesc)\n=========\nescape strings to use in regular expressions\n"
 }

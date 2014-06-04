@@ -1,7 +1,9 @@
 'use strict';
 
-var S_REPLACER = '\\$&';
 var R_SPECIALS = /[-$()*+.\/?[\\\]^{|}]/g;
+var S_REPLACER = '\\$&';
+
+var replace = String.prototype.replace;
 
 /**
  * @param {String} s
@@ -10,5 +12,5 @@ var R_SPECIALS = /[-$()*+.\/?[\\\]^{|}]/g;
  * */
 module.exports = function (s) {
 
-    return String.prototype.replace.call(s, R_SPECIALS, S_REPLACER);
+    return replace.call(s, R_SPECIALS, S_REPLACER);
 };

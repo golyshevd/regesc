@@ -36,6 +36,5 @@
         "test": "npm run lint && npm run unit",
         "cover": "istanbul cover test/runner"
     },
-    "version": "0.0.1",
-    "readme": "regesc [![Build Status](https://travis-ci.org/golyshevd/regesc.png?branch=master)](https://travis-ci.org/golyshevd/regesc)\n=========\nescape strings to use in regular expressions\n"
+    "version": "0.0.1"
 }

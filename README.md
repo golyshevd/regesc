@@ -1,3 +1,3 @@
-fist.lang.regesc [![Build Status](https://travis-ci.org/fistlabs/fist.lang.regesc.png?branch=v0.0.x)](https://travis-ci.org/fistlabs/fist.lang.regesc)
+regesc [![Build Status](https://travis-ci.org/fistlabs/regesc.png?branch=master)](https://travis-ci.org/fistlabs/regesc)
 =========
 escape strings to use in regular expressions
